@@ -1,0 +1,69 @@
+*
+{
+    font-family: 'Hind Madurai', sans-serif;
+}
+#mod1
+{
+    width: 100%;
+    height: 1000px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#mod1table
+{
+    width: 80%;
+    height: 500px;
+    border-spacing: 20px;
+}
+#left
+{
+    width: 150px;
+    height: 400px;
+    background-image: url(./pexels-guilherme-rossi-1755674.jpg);
+    background-size:100% 500px;
+    background-repeat: no-repeat;
+    transition:background-image 2s;
+}
+#left:hover{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.295),rgba(128, 128, 128, 0.322)),url(./pexels-guilherme-rossi-1755674.jpg);
+}
+ #right
+{
+    width:300px;
+    height: 400px;
+    background-image: url(./pexels-guduru-ajay-bhargav-939729.jpg);
+    background-size:100% 400px;
+    background-repeat: no-repeat;
+}
+#right:hover
+{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.295),rgba(128, 128, 128, 0.322)),url(./pexels-guduru-ajay-bhargav-939729.jpg);
+
+}
+#bottom
+{
+    width: 100%;
+    height: 400px;
+   background-image: url(./pexels-quang-nguyen-vinh-3232542.jpg);
+   background-size:100% 500px;
+   background-repeat: no-repeat;
+} 
+#bottom:hover{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.295),rgba(128, 128, 128, 0.322)),url(./pexels-quang-nguyen-vinh-3232542.jpg);
+
+}
+#mod1readmore
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(248, 13, 13);
+    border: none;
+    outline: none;
+}
+#mod1readmore:hover
+{
+    background-color:rgba(248, 13, 13, 0.418) ;
+}
