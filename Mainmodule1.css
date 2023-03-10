@@ -50,6 +50,7 @@
    background-image: url(./pexels-quang-nguyen-vinh-3232542.jpg);
    background-size:100% 500px;
    background-repeat: no-repeat;
+   font-size: 20px;
 } 
 #bottom:hover{
     background-image: linear-gradient(rgba(128, 128, 128, 0.295),rgba(128, 128, 128, 0.322)),url(./pexels-quang-nguyen-vinh-3232542.jpg);
@@ -62,8 +63,25 @@
     background-color: rgb(248, 13, 13);
     border: none;
     outline: none;
+    color: white;
 }
 #mod1readmore:hover
 {
+    background-color:rgba(248, 13, 13, 0.418) ;
+}
+#mod1readmore1,#mod1readmore2
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(248, 13, 13);
+    border: none;
+    outline: none;
+    color: white;
+}
+#mod1readmore1:hover
+{
+    background-color:rgba(248, 13, 13, 0.418) ;
+}
+#mod1readmore2:hover{
     background-color:rgba(248, 13, 13, 0.418) ;
 }
