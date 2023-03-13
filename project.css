@@ -56,17 +56,19 @@
 #shopdown
 {
     width: 260px;
-    height: 350px;
+    height: 0px;
     background-color: rgb(88, 3, 50);
     z-index: 2;
     position: fixed;
     right: 250px;
     top: 40px;
     display: none;
+    transition: display 2s;
 }
 #shop:hover #shopdown
 {
     display: block !important;
+    height: 350px;
 }
 #shoptable
 {
@@ -75,15 +77,15 @@
 .shoplist
 {
     font-size: 15px;
+    width: 100%;
     color: rgba(179, 169, 169, 0.712);
     list-style: none;
-    padding-top: 10px;
-    margin-left: 80px;
+   
 }
 .shoplist:hover{
     color: rgb(88, 3, 50);
-    text-decoration: underline 2px black;
     color: gray;
+    background-color: white;
 }
 #bcimg
 {
